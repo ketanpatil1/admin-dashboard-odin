@@ -134,7 +134,7 @@ header {
     grid-template-columns: 1fr 400px;
     grid-template-rows: 1fr 1fr;
     gap: 28px;
-    padding: 28px;
+    padding: 20px 28px;
 
     & > section > p {
         font-size: 18px;
