@@ -68,14 +68,23 @@ header {
     & > div {
         display: flex;
         width: 100%;
+        gap: 24px;
 
         & > div {
             display: flex;
+            gap: 24px;
         }
     }
 
     input {
         background-color: var(--main-bg-color);
+    }
+
+    input,
+    .user-greeting {
+        width: 100%;
+        max-width: 1000px;
+        margin-right: auto;
     }
 
     button {
