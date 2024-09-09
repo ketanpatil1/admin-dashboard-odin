@@ -1,3 +1,10 @@
+:root {
+    --main-bg-color: #e2e8f0;
+    --surface-bg-color: #ffffff;
+    --accent-color: #1992d4;
+    --accent-text-color: #ffffff;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     padding: 0;
