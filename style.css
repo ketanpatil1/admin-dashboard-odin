@@ -115,4 +115,16 @@ header {
         height: 1.5em;
         width: 1.5em;
     }
+
+    img {
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+
+    .user-info img {
+        height: 2em;
+    }
+    .user-greeting img {
+        height: 4em;
+    }
 }
