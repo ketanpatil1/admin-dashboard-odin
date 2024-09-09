@@ -69,10 +69,12 @@ header {
         width: 100%;
         gap: 24px;
         padding: 20px 32px;
+        align-items: center;
 
         & > div {
             display: flex;
             gap: 24px;
+            align-items: center;
         }
     }
 
