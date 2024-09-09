@@ -73,4 +73,12 @@ header {
             display: flex;
         }
     }
+
+    input {
+        background-color: var(--main-bg-color);
+    }
+
+    button {
+        background-color: var(--accent-color);
+    }
 }
