@@ -163,6 +163,11 @@ header {
     grid-auto-rows: 250px;
     gap: 28px;
 }
+.card {
+    background-color: var(--surface-bg-color);
+    border-radius: 16px;
+    border-left: 12px solid #f0b429;
+}
 
 .announcements,
 .trending {
@@ -171,12 +176,19 @@ header {
 }
 .announcements-container,
 .trending-container {
+    background-color: var(--surface-bg-color);
+    border-radius: 16px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     height: auto;
+    padding: 32px;
 
     & > div {
         flex-grow: 1;
     }
+}
+
+.announcements-container > div:not(:last-child) {
+    border-bottom: 1px solid #d2d2d2;
 }
