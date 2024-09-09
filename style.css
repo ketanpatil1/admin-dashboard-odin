@@ -171,6 +171,12 @@ header {
 
     button {
         background-color: transparent;
+        border-radius: 50%;
+        padding: 8px;
+
+        &:hover {
+            background-color: var(--main-bg-color);
+        }
     }
     svg {
         height: 28px;
