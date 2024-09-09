@@ -168,6 +168,13 @@ header {
     background-color: var(--surface-bg-color);
     border-radius: 16px;
     border-left: 12px solid #f0b429;
+
+    button {
+        background-color: transparent;
+    }
+    svg {
+        height: 28px;
+    }
 }
 
 .announcements,
