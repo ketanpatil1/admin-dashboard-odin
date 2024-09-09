@@ -63,4 +63,14 @@ nav {
 
 header {
     background-color: var(--surface-bg-color);
+    padding: 20px 32px;
+
+    & > div {
+        display: flex;
+        width: 100%;
+
+        & > div {
+            display: flex;
+        }
+    }
 }
