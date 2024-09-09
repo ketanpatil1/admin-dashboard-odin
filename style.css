@@ -168,7 +168,23 @@ header {
     background-color: var(--surface-bg-color);
     border-radius: 16px;
     border-left: 12px solid #f0b429;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 20px;
 
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .description {
+        font-size: 16px;
+        color: #636363;
+    }
+
+    .actions {
+        margin-left: auto;
+        margin-top: auto;
+    }
     button {
         background-color: transparent;
         border-radius: 50%;
