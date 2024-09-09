@@ -135,6 +135,7 @@ header {
     grid-template-rows: 1fr 1fr;
     gap: 28px;
     padding: 20px 28px;
+    overflow: scroll;
 
     & > section > p {
         font-size: 20px;
