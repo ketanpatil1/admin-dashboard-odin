@@ -27,25 +27,37 @@ nav {
     display: grid;
     grid-template-columns: 50px 1fr;
     grid-auto-rows: fit-content(40px);
-    column-gap: 20px;
+    column-gap: 10px;
     row-gap: 30px;
+    padding: 10px;
 
     a {
         color: var(--accent-text-color);
         text-decoration: none;
-        font-size: 20px;
+        font-size: 24px;
         padding: 10px;
+
+        svg {
+            width: 60%;
+            height: 100%;
+            justify-self: center;
+        }
     }
     .logo a {
-        font-size: 24px;
-        padding: 20px;
+        font-size: 32px;
         font-weight: bold;
+
+        svg {
+            height: 90%;
+            width: 90%;
+        }
     }
 
     .logo, a, ul, li {
         display: grid;
         grid-template-columns: subgrid;
         grid-column: 1 / 3;
+        align-items: center;
     }
 }
 
