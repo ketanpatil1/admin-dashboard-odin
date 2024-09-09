@@ -64,6 +64,10 @@ nav {
 header {
     background-color: var(--surface-bg-color);
 
+    * {
+        font-size: 16px;
+    }
+
     & > div {
         display: flex;
         width: 100%;
@@ -97,5 +101,12 @@ header {
     button {
         padding: 0.5em 1.5em;
         border-radius: 2em;
+    }
+
+    .greeting {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 24px;
     }
 }
