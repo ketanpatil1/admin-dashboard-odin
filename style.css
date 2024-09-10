@@ -240,6 +240,19 @@ header {
     border-bottom: 1px solid #d2d2d2;
 }
 
-.trending-container > div {
-    display: flex;
+.trending-container {
+    .trending-item {
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .project {
+        color: #636363;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
