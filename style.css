@@ -230,7 +230,7 @@ header {
         color: #636363;
     }
 
-    div {
+    .announcement-item {
         display: flex;
         flex-direction: column;
         justify-content: center;
