@@ -43,9 +43,11 @@ nav {
             justify-self: center;
         }
     }
-    .logo a {
-        font-size: 32px;
-        font-weight: bold;
+    .logo {
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
 
         svg {
             height: 90%;
@@ -137,7 +139,7 @@ header {
     padding: 20px 28px;
     overflow: scroll;
 
-    & > section > p {
+    & > section > h2 {
         font-size: 20px;
         font-weight: bold;
         margin-bottom: 12px;
